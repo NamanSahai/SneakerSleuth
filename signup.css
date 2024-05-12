@@ -1,0 +1,189 @@
+/* body css for whole page */
+    #main{
+        width:600px; 
+        height:auto; 
+        overflow:hidden; 
+        padding-bottom:20px; 
+        margin-left:auto; 
+        margin-right:auto; 
+        border-radius:5px; 
+        padding-left:10px; 
+        margin-top:100px; 
+        border-top:3px double #f1f1f1; 
+        border-bottom:3px double #f1f1f1; 
+        padding-top:20px;
+    }
+    
+    #main table{font-family:"Comic Sans MS", cursive;}
+    /* css code for textbox */
+    #main .tb{
+        height:28px; 
+        width:230px; 
+        border:1px solid #f26724; 
+        color:#1c3934; 
+        font-weight:bold; 
+        border-left:5px solid #f7f7f7; 
+        opacity:0.9;}
+    
+    #main .tb:focus{
+        height:28px; 
+        border:1px solid #f26724; 
+        outline:none; 
+        border-left:5px solid #f7f7f7;}
+
+    /* css code for button*/
+    #main .btn{
+        width:150px; 
+        height:32px; 
+        outline:none;  
+        color:#f7f7f7; 
+        font-weight:bold; 
+        border:0px solid #f26724; 
+        text-shadow: 0px 0.5px 0.5px #fff; 
+        border-radius: 2px; 
+        font-weight: 600; 
+        color: #1c3934; 
+        letter-spacing: 1px; 
+        font-size:14px; 
+        background-color:#f1f1f1; 
+        -webkit-transition: 1s; 
+        -moz-transition: 1s; 
+        transition: 1s;}
+  
+    #main .btn:hover{
+        background-color:#1c3934; 
+        outline:none;  
+        border-radius: 2px; 
+        color:#f1f1f1; 
+        border:1px solid #f1f1f1;
+        -webkit-transition: 1s; 
+        -moz-transition: 1s; 
+        transition: 1s; }
+
+        header {
+            background-image: linear-gradient(to bottom, rgba(206, 190, 188, 0.763), rgba(36, 36, 36, 0));
+            padding: 20px;
+            margin:-5px;
+            display: flex;
+            justify-content: space-between; /* Space items evenly */
+            align-items: center; /* Align items vertically */
+          }
+          
+          h1 {
+            margin: 0; /* Remove default margin */
+          }
+          
+          nav ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+          }
+          
+          nav li {
+            display: inline-block; /* Display items horizontally */
+            margin-right: 50px;
+          }
+          
+          nav a {
+            text-decoration: none; /* Remove underline */
+            font-size: x-large;
+          }
+          
+          nav a:hover {
+            color: #c8ce80; /* Change color on hover */
+          }
+          
+          .info 
+          {
+              padding-left: 40px;
+              padding-right: 40px;
+              padding-top: 40px;
+              padding-bottom: 40px;
+          }
+          .info {  
+              background-color: rgba(0, 0, 0, 0.5); 
+              color: #f3f3f7;; 
+              border: 5px;
+              padding: 5px;
+              margin: -75px 10px 600px 900px;
+              font: bolder;
+              font-size: large;
+            }
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            .dropdown-content {
+              display: none;
+              position: fixed;
+              background-color: #a5a6a8;
+              border-radius: 5px;  
+              size:3;
+              min-width: 15px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+              text-align: left;
+            }
+            .dropdown-content a {
+              color:  #e5e8ed;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            .dropdown-content a:hover {background-color: #100e0e;}
+            .dropdown:hover .dropdown-content {display: block;}    
+            * {box-sizing: border-box}
+
+            /* Add padding to containers */
+            .container {
+              padding: 16px;
+            }
+            
+            /* Full-width input fields */
+            input[type=text], input[type=password] {
+              width: 100%;
+              padding: 15px;
+              margin: 5px 0 22px 0;
+              display: inline-block;
+              border: none;
+              background: #f1f1f1;
+            }
+            
+            input[type=text]:focus, input[type=password]:focus {
+              background-color: #ddd;
+              outline: none;
+            }
+            
+            /* Overwrite default styles of hr */
+            hr {
+              border: 1px solid #f1f1f1;
+              margin-bottom: 25px;
+            }
+            
+            /* Set a style for the submit/register button */
+            .registerbtn {
+              background-color: #04AA6D;
+              color: white;
+              padding: 16px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+              opacity: 0.9;
+            }
+            
+            .registerbtn:hover {
+              opacity:1;
+            }
+            
+            /* Add a blue text color to links */
+            a {
+              color: dodgerblue;
+            }
+            
+            /* Set a grey background color and center the text of the "sign in" section */
+            .signin {
+              background-color: #f1f1f1;
+              text-align: center;
+            }
+            

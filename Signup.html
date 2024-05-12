@@ -1,0 +1,52 @@
+<html> 
+    <title> Sign Up </title>
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <script src="signup.js"> </script>
+</head>
+
+<style>
+    body {
+      background-image: url('img143.jpg');
+      background-repeat: no-repeat;
+      background-size: 1440px 990px;
+    }
+</style>
+
+    <header>
+        <h1> <a href="Home.html"> <img width="180px" height="auto" src="img3.png"></a> </h1>
+        <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: antiquewhite;", size="45"> Welcome to the community! </h1>
+        <nav>
+            <ul>
+                <li> <a href="Home.html" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: antiquewhite;", size="12"> HOME </a> </li>
+                <li> <a href="About.html" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: antiquewhite;", size="12"> ABOUT </a> </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <form action="Signup.php" method="POST">
+        <div class="container">
+          <hr>
+          
+          <label style="color: antiquewhite;" for="name"><b>Enter Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name" id="name" required >
+
+          <label style="color: antiquewhite;" for="email"><b>Enter Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required >
+
+          <label style="color: antiquewhite;" for="uname"><b>Enter Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" id="uname" required >
+      
+          <label style="color: antiquewhite;" for="pwd"><b>Enter Password</b></label>
+          <input type="password" placeholder="Enter Password" name="pwd" id="pwd" required>
+      
+          <label style="color: antiquewhite;" for="cpwd"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Confirm Password" name="cpwd" id="cpwd" required>
+          <hr>
+          <input type="submit" value="Submit">
+  </div>
+</form>
+
+</html>
